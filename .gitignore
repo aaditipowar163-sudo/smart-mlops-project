@@ -1,0 +1,9 @@
+
+.venv/
+__pycache__/
+.pytest_cache/
+mlruns/
+*.pyc
+.env
+data/breast_cancer.csv
+artifacts/

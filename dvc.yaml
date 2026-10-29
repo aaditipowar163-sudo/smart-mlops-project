@@ -1,0 +1,10 @@
+
+stages:
+  train:
+    cmd: python -m src.train
+    deps:
+      - src/data.py
+      - src/train.py
+    outs:
+      - artifacts/best_model.joblib
+      - artifacts/results.json
