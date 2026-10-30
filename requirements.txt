@@ -9,5 +9,3 @@ pytest
 httpx
 dvc
 feast
-matplotlib
-scipy
